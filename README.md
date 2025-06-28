@@ -1,32 +1,49 @@
 # DogFace PCB Art Keychain
 
-This is a custom PCB art project shaped like a dog's face! It’s not just cute — it’s interactive too. The keychain lights up, vibrates, and responds to button presses.
+DogFace is a custom dog-shaped PCB art keychain that lights up, vibrates, and reacts to button presses. This project is built around fun, interactivity, and portability — all packed into a single board you can hang on your bag, keys, or lanyard.
+
+---
 
 ## Features
+
 - 2 LEDs as glowing eyes
 - 3 buttons:
   - Left eye control
   - Right eye control
-  - Vibration motor trigger (tongue effect)
-- 1 potentiometer (brightness control for eyes)
-- 1 NPN transistor for safely switching the motor
-- 1 capacitor for motor protection
-- 1 keychain hole (5.3mm) for attaching to bags or lanyards
+  - Tongue "bark" via vibration motor
+- 1 potentiometer to control LED brightness
+- 1 NPN transistor to drive the motor
+- 1 capacitor to protect the motor circuit
+- 5.3 mm keychain hole for easy attachment
 
 ---
 
 ## Bill of Materials (BoM)
 
-| Component                      | Quantity | Notes                                       |
-|-------------------------------|----------|---------------------------------------------|
-| 5mm LED                       | 2        | Eyes                                        |
-| Tactile Pushbutton (THT)      | 3        | Left eye, right eye, motor trigger          |
-| Vibration Motor (3V)          | 1        | Mouth/tongue effect                         |
-| Potentiometer – Bourns 3362P  | 1        | Controls brightness of LEDs                 |
-| Capacitor (Electrolytic, 100µF)| 1       | Protects motor circuit (flyback damping)    |
-| **NPN Transistor (e.g., 2N2222)** | 1     | Switches the vibration motor                |
-| Resistors                     | 3–4      | Current limiters & transistor base resistor |
-| PCB with custom dog shape     | 1        | Fabricated from this repo’s Gerbers         |
+| Component                      | Quantity         | Notes                                       |
+|-------------------------------|------------------|---------------------------------------------|
+| 5mm LED                       | 2                | Eyes                                        |
+| Tactile Pushbutton (THT)      | 3                | Left eye, right eye, motor trigger          |
+| Vibration Motor               | 1                | Tongue effect / "bark" vibration            |
+| Potentiometer – Bourns 3362P  | 1                | LED brightness control                      |
+| Capacitor (Electrolytic, 100µF)| 1               | Motor protection (flyback damping)          |
+| NPN Transistor (e.g., 2N2222) | 1                | Switches the vibration motor                |
+| Resistors                     | 3–4              | Current limiting and transistor base resistor |
+| Custom-shaped PCB             | 1                | Fabricated from this repo’s Gerber files    |
+| Breadboard (for testing)      | 1 (optional)     | For final circuit checks before soldering   |
+| Jumper wires (male–male)      | 10               | For temporary connections on breadboard     |
+
+---
+
+## Note on Breadboard and Jumper Wires
+
+Although this is a custom PCB project, I would like to include 1 breadboard and 10 male-to-male jumper wires in the kit to:
+
+- Validate the full circuit functionality before soldering
+- Test component behavior such as the motor, potentiometer, and transistor
+- Ensure everything works as expected before committing to assembly
+
+This is especially helpful since this is my first PCB project using KiCad.
 
 ---
 
@@ -45,30 +62,40 @@ This is a custom PCB art project shaped like a dog's face! It’s not just cute 
 
 ## Files Included
 
-- **`/screenshots`**: Contains schematic, layout, and 3D view images.
-- **`/gerbers`**: Includes all Gerber and drill files for PCB fabrication.
-- **`.kicad_pcb` and `.kicad_sch`**: KiCad design files for editing or viewing the board.
+- `/screenshots/`: Schematic, layout, and 3D preview images
+- `/gerbers/`: Gerber and drill files ready for manufacturing
+- `.kicad_sch` and `.kicad_pcb`: Editable KiCad design files
+- This `README.md`
 
 ---
 
-## Slack Username  
+## Slack Username
+
 `@your-slack-username`
 
 ---
 
 ## Reflections
 
-This is my first PCB project using KiCad!  
-I learned a lot about:
-- Using a transistor to control motors
-- Making PCBs both functional *and* fun
-- Creating a custom shape with DXF + Edge.Cuts
-- Handling motor protection and power safely
+This is my first-ever PCB project, and I built it completely in KiCad. I challenged myself to combine functionality with personality by making a usable and fun keychain circuit.
+
+### What I Learned
+
+- How to use transistors to safely drive a motor
+- Creating expressive PCB art using DXF outlines
+- Designing within tight space constraints
+- Handling motor protection and flyback safely
 
 ### Challenges
-- Exporting a custom layout to the KiCad PCB editor
-- Fitting components without ruining the dog’s facial layout
- 
+
+- Fitting all components onto the face without breaking the aesthetic
+- Making sure the vibration motor didn’t draw too much current
+- Finding the best placement for a keychain hole without interfering with traces
+
 ### Advice
-Start with a sketch, then plan your circuit around the art — not the other way around!  
-And always check your clearances before placing mounting/keychain holes.
+
+- Start by drawing your shape first, then work the circuit into it
+- Test on a breadboard before soldering, especially with motors
+- Don’t forget to leave space around mounting or keychain holes
+
+---
