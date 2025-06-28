@@ -19,7 +19,7 @@ This is a custom PCB art project shaped like a dog's face! It’s not just cute 
 
 | Component                      | Quantity | Notes                                       |
 |-------------------------------|----------|---------------------------------------------|
-| 5mm Red LED                   | 2        | Eyes                                        |
+| 5mm LED                       | 2        | Eyes                                        |
 | Tactile Pushbutton (THT)      | 3        | Left eye, right eye, motor trigger          |
 | Vibration Motor (3V)          | 1        | Mouth/tongue effect                         |
 | Potentiometer – Bourns 3362P  | 1        | Controls brightness of LEDs                 |
