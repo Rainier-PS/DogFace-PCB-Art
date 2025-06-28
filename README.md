@@ -64,7 +64,7 @@ This is especially helpful since this is my first PCB project using KiCad.
 ## Files Included
 
 - `/images/`: Schematic, layout, and 3D preview images
-- `/gerbers/`: Gerber and drill files ready for manufacturing
+- `/production/`: Gerber and drill files ready for manufacturing
 - `/PCB/`: KiCad Schematics and PCB Design
 - This `README.md`
 
@@ -72,7 +72,7 @@ This is especially helpful since this is my first PCB project using KiCad.
 
 ## Slack Username
 
-`@your-slack-username`
+`@Rainier P.S.`
 
 ---
 
@@ -90,6 +90,5 @@ This is my first-ever PCB project, and I built it completely in KiCad. I challen
 ### Challenges
 
 - Fitting all components onto the face without breaking the aesthetic
-- Making sure the vibration motor didn’t draw too much current
-- Finding the best placement for a keychain hole without interfering with traces
+- Creating custom PCB designs using DXF outlines
 
