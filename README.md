@@ -65,7 +65,7 @@ This is especially helpful since this is my first PCB project using KiCad.
 
 - `/images/`: Schematic, layout, and 3D preview images
 - `/gerbers/`: Gerber and drill files ready for manufacturing
-- `.kicad_sch` and `.kicad_pcb`: Editable KiCad design files
+- `/PCB/`: KiCad Schematics and PCB Design
 - This `README.md`
 
 ---
