@@ -10,7 +10,7 @@ DogFace is a custom dog-shaped PCB art keychain that lights up, vibrates, and re
 - 3 buttons:
   - Left eye control
   - Right eye control
-  - Tongue "bark" via vibration motor
+  - Mouth "bark" via vibration motor
 - 1 potentiometer to control LED brightness
 - 1 NPN transistor to drive the motor
 - 1 capacitor to protect the motor circuit
@@ -26,11 +26,11 @@ DogFace is a custom dog-shaped PCB art keychain that lights up, vibrates, and re
 | Tactile Pushbutton (THT)      | 3                | Left eye, right eye, motor trigger          |
 | Vibration Motor               | 1                | Tongue effect / "bark" vibration            |
 | Potentiometer                 | 1                | LED brightness control                      |
-| Capacitor (Electrolytic, 100µF)| 1               | Motor protection (flyback damping)          |
+| Capacitor                     | 1                | Motor protection (flyback damping)          |
 | NPN Transistor (e.g., 2N2222) | 1                | Switches the vibration motor                |
 | Resistors                     | 3.               | Current limiting and transistor base resistor |
 | Custom-shaped PCB             | 1                | Fabricated from this repo’s Gerber files    |
-| Breadboard (for testing)      | 1 (optional)     | For final circuit checks before soldering   |
+| Breadboard (for testing)      | 1                | For final circuit checks before soldering   |
 | Jumper wires (male–male)      | 10               | For temporary connections on breadboard     |
 
 ---
@@ -50,13 +50,14 @@ This is especially helpful since this is my first PCB project using KiCad.
 ## Screenshots
 
 ### Schematic  
-![Schematic](./screenshots/schematic.png)
+![Schematic](images/Schematics.png)
 
 ### PCB Layout  
-![PCB Layout](./screenshots/pcb_layout.png)
+![PCB Layout](images/PCB.png)
 
 ### 3D View  
-![3D View](./screenshots/3d_view.png)
+![3D View](images/3D%20Model.png)
+![3D View](images/3D%20Model-Back.png)
 
 ---
 
@@ -92,10 +93,3 @@ This is my first-ever PCB project, and I built it completely in KiCad. I challen
 - Making sure the vibration motor didn’t draw too much current
 - Finding the best placement for a keychain hole without interfering with traces
 
-### Advice
-
-- Start by drawing your shape first, then work the circuit into it
-- Test on a breadboard before soldering, especially with motors
-- Don’t forget to leave space around mounting or keychain holes
-
----
