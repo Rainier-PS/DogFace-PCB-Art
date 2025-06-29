@@ -27,7 +27,7 @@ DogFace is a custom dog-shaped PCB art keychain that lights up, vibrates, and re
 | Vibration Motor               | 1                | Tongue effect / "bark" vibration            |
 | Potentiometer                 | 1                | LED brightness control                      |
 | Capacitor                     | 1                | Motor protection (flyback damping)          |
-| NPN Transistor (e.g., 2N2222) | 1                | Switches the vibration motor                |
+| NPN Transistor                | 1                | Switches the vibration motor                |
 | Resistors                     | 3.               | Current limiting and transistor base resistor |
 | Custom-shaped PCB             | 1                | Fabricated from this repo’s Gerber files    |
 | Breadboard (for testing)      | 1                | For final circuit checks before soldering   |
