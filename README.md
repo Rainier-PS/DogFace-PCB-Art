@@ -27,8 +27,7 @@ DogFace is a custom dog-shaped PCB art keychain that lights up, vibrates, and re
 | Vibration Motor               | 1                | Tongue effect / "bark" vibration            |
 | Potentiometer                 | 1                | LED brightness control                      |
 | Capacitor                     | 1                | Motor protection (flyback damping)          |
-| NPN Transistor                | 1                | Switches the vibration motor                |
-| Resistors                     | 3.               | Current limiting and transistor base resistor |
+| Resistors                     | 2                | Current limiting                            |
 | Custom-shaped PCB             | 1                | Fabricated from this repo’s Gerber files    |
 | Breadboard (for testing)      | 1                | For final circuit checks before soldering   |
 | Jumper wires (male–male)      | 10               | For temporary connections on breadboard     |
@@ -51,6 +50,7 @@ This is especially helpful since this is my first PCB project using KiCad.
 
 ### Schematic  
 ![Schematic](images/Schematics.png)
+![Schematic](images/Simulation.png)
 
 ### PCB Layout  
 ![PCB Layout](images/PCB.png)
@@ -82,10 +82,8 @@ This is my first-ever PCB project, and I built it completely in KiCad. I challen
 
 ### What I Learned
 
-- How to use transistors to safely drive a motor
 - Creating expressive PCB art using DXF outlines
 - Designing within tight space constraints
-- Handling motor protection and flyback safely
 
 ### Challenges
 
