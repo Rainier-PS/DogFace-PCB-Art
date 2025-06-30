@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "3362P-1-103")(type "KiCad")(uri "C:/Users/raini/Downloads/PCB art/3362P-1-103")(options "")(descr ""))
+  (lib (name "pawprint")(type "KiCad")(uri "C:/Users/raini/Downloads/PCB art/Graphics/pawprint.pretty")(options "")(descr ""))
+  (lib (name "bone")(type "KiCad")(uri "C:/Users/raini/Downloads/PCB art/Graphics/bone.pretty")(options "")(descr ""))
+  (lib (name "nose")(type "KiCad")(uri "C:/Users/raini/Downloads/PCB art/Graphics/nose.pretty")(options "")(descr ""))
+)
