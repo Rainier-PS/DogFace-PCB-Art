@@ -12,7 +12,6 @@ DogFace is a custom dog-shaped PCB art keychain that lights up, vibrates, and re
   - Right eye control
   - Mouth "bark" via vibration motor
 - 1 potentiometer to control LED brightness
-- 1 NPN transistor to drive the motor
 - 1 capacitor to protect the motor circuit
 - 5.3 mm keychain hole for easy attachment
 
