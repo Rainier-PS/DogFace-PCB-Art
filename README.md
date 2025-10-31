@@ -48,15 +48,15 @@ This is especially helpful since this is my first PCB project using KiCad.
 ## Screenshots
 
 ### Schematic  
-![Schematic](images/Schematics.png)
-![Schematic](images/Simulation.png)
+![Schematic](images/Schematics.avif)
+![Schematic](images/Simulation.avif)
 
 ### PCB Layout  
-![PCB Layout](images/PCB.png)
+![PCB Layout](images/PCB.avif)
 
 ### 3D View  
-![3D View](images/3D%20Model.png)
-![3D View](images/3D%20Model-Back.png)
+![3D View](images/3D%20Model.avif)
+![3D View](images/3D%20Model-Back.avif)
 
 ---
 
